@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.bluetoothcontroller.MainActivity"
+    tools:context="com.example.bluetoothController.MainActivity"
     android:background="@color/royalBlue" >
 
     <Button
@@ -16,7 +16,8 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/suchen_Button"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:onClick="startBluetoothActivity" />
 
     <TextView
         android:id="@+id/textView1"
