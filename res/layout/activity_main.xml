@@ -9,11 +9,19 @@
     tools:context="com.example.bluetoothcontroller.MainActivity" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/sButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/suchen_Button" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/startTextView" />
 
 </RelativeLayout>
